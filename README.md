@@ -8,7 +8,7 @@ PostgreSQL Database with the PL/Perl extension
 
 To start a container use the following:
 ```sh
-docker run --name some-postgres-server garethflowers/postgres-plperl
+docker run --name some-postgres-server garethflowers/postgres-plperl-server
 ```
 
 ## License
