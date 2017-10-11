@@ -1,5 +1,8 @@
 # PostgreSQL Server with PL/Perl
 
+[![Image Layers](https://images.microbadger.com/badges/image/garethflowers/postgres-plperl-server.svg)](https://microbadger.com/images/garethflowers/postgres-plperl-server)
+[![Docker Pulls](https://img.shields.io/docker/pulls/garethflowers/postgres-plperl-server.svg)](https://store.docker.com/community/images/garethflowers/postgres-plperl-server)
+
 PostgreSQL Database with the PL/Perl extension
 
 ## How to use this image
