@@ -1,5 +1,6 @@
 # PostgreSQL Server with PL/Perl
 
+[![Build Status](https://travis-ci.org/garethflowers/postgres-plperl-server.svg?branch=master)](https://travis-ci.org/garethflowers/postgres-plperl-server)
 [![Image Layers](https://images.microbadger.com/badges/image/garethflowers/postgres-plperl-server.svg)](https://microbadger.com/images/garethflowers/postgres-plperl-server)
 [![Docker Pulls](https://img.shields.io/docker/pulls/garethflowers/postgres-plperl-server.svg)](https://store.docker.com/community/images/garethflowers/postgres-plperl-server)
 
