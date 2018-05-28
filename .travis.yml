@@ -1,5 +1,9 @@
 language: bash
 
+addons:
+  apt:
+    update: true
+
 services:
   - docker
 
@@ -8,4 +12,6 @@ install:
   - docker run -d -p 5432:5432 --name postgres-plperl-server postgres-plperl-server
 
 script:
-  - docker exec postgres-plperl-server psql -U postgres -c "SELECT CURRENT_TIMESTAMP;"
+  - docker ps
+  - sleep 20
+  - docker exec postgres-plperl-server psql -U postgres -c "SELECT NOW();"
