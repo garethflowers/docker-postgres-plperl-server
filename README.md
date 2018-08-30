@@ -17,5 +17,5 @@ docker run \
 
 ## License
 
-* PostgreSQL is released under the [PostgreSQL License](http://www.opensource.org/licenses/postgresql)
-* This image is released under the [MIT License](https://raw.githubusercontent.com/garethflowers/docker-postgres-plperl/master/LICENSE)
+*	PostgreSQL is released under the [PostgreSQL License](https://www.opensource.org/licenses/postgresql)
+*	This image is released under the [MIT License](https://raw.githubusercontent.com/garethflowers/docker-postgres-plperl/master/LICENSE)
