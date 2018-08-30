@@ -8,8 +8,8 @@ services:
   - docker
 
 install:
-  - docker build -t postgres-plperl-server .
-  - docker run -d -p 5432:5432 --name postgres-plperl-server postgres-plperl-server
+  - docker build --tag postgres-plperl-server .
+  - docker run --detach --publish 5432:5432 --name postgres-plperl-server postgres-plperl-server
 
 script:
   - docker ps
