@@ -1,0 +1,3 @@
+#!/bin/sh
+
+curl --request POST https://hooks.microbadger.com/images/garethflowers/postgres-plperl-server/by5kfAfv4I9fcPCT2nHo2-Lzyo8=
