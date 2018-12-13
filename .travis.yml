@@ -14,4 +14,5 @@ install:
 script:
   - docker ps
   - sleep 20
-  - docker exec postgres-plperl-server psql -U postgres -c "SELECT NOW();"
+  - docker exec postgres-plperl-server psql -U postgres -c "CREATE EXTENSION plperl;"
+  - docker exec postgres-plperl-server psql -U postgres -c "CREATE EXTENSION plperlu;"
