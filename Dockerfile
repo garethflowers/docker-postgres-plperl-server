@@ -1,8 +1,19 @@
 FROM postgres:9.6.15-alpine
 
-LABEL maintainer=garethflowers \
-	name=postgres-plperl-server \
-	version=9.6.15
+ARG BUILD_DATE
+ARG VERSION
+ARG VCS_REF
+
+LABEL org.label-schema.build-date=$BUILD_DATE \
+	org.label-schema.docker.cmd="docker run --detach --publish 5432:5432 garethflowers/postgres-plperl-server" \
+	org.label-schema.description="PostgreSQL with PlPerl Extension" \
+	org.label-schema.name="postgres-plperl-server" \
+	org.label-schema.schema-version="1.0" \
+	org.label-schema.url="https://www.postgresql.org" \
+	org.label-schema.vcs-ref=$VCS_REF \
+	org.label-schema.vcs-url="https://github.com/garethflowers/docker-postgres-plperl-server" \
+	org.label-schema.vendor="garethflowers" \
+	org.label-schema.version=$VERSION
 
 ENV POSTGRES_INITDB_ARGS --encoding=UNICODE --lc-collate=C --lc-ctype=C
 
