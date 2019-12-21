@@ -12,7 +12,6 @@ install:
   - docker run --detach --publish 5432:5432 --name postgres-plperl-server postgres-plperl-server
 
 script:
-  - docker ps
-  - sleep 20
+  - until docker exec postgres-plperl-server pg_isready; do sleep 1; done
   - docker exec postgres-plperl-server psql -U postgres -c "CREATE EXTENSION plperl;"
   - docker exec postgres-plperl-server psql -U postgres -c "CREATE EXTENSION plperlu;"
