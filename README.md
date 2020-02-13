@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/garethflowers/docker-postgres-plperl-server.svg?branch=master)](https://travis-ci.org/garethflowers/docker-postgres-plperl-server) [![Image Layers](https://images.microbadger.com/badges/image/garethflowers/postgres-plperl-server.svg)](https://microbadger.com/images/garethflowers/postgres-plperl-server) [![Docker Pulls](https://img.shields.io/docker/pulls/garethflowers/postgres-plperl-server.svg)](https://store.docker.com/community/images/garethflowers/postgres-plperl-server)
+[![Build Status][I1]][1] [![Image Layers][I2]][2] [![Docker Pulls][I3]][3]
 
 # PostgreSQL Server with PL/Perl
 
@@ -17,5 +17,14 @@ docker run \
 
 ## License
 
-*	PostgreSQL is released under the [PostgreSQL License](https://www.opensource.org/licenses/postgresql)
-*	This image is released under the [MIT License](https://raw.githubusercontent.com/garethflowers/docker-postgres-plperl/master/LICENSE)
+*	PostgreSQL is released under the [PostgreSQL License][4]
+*	This image is released under the [MIT License][5]
+
+[I1]: https://travis-ci.org/garethflowers/docker-postgres-plperl-server.svg?branch=master
+[I2]: https://images.microbadger.com/badges/image/garethflowers/postgres-plperl-server.svg
+[I3]: https://img.shields.io/docker/pulls/garethflowers/postgres-plperl-server.svg
+[1]: https://travis-ci.org/garethflowers/docker-postgres-plperl-server
+[2]: https://microbadger.com/images/garethflowers/postgres-plperl-server
+[3]: https://store.docker.com/community/images/garethflowers/postgres-plperl-server
+[4]: https://www.opensource.org/licenses/postgresql
+[5]: https://raw.githubusercontent.com/garethflowers/docker-postgres-plperl/master/LICENSE
