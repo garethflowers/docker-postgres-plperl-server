@@ -1,4 +1,4 @@
-FROM postgres:9.6.15-alpine
+FROM postgres:9.6.16-alpine
 
 ARG BUILD_DATE
 ARG VERSION
