@@ -1,4 +1,4 @@
-FROM postgres:9.6.16-alpine
+FROM postgres:14.5-alpine
 
 ENV POSTGRES_INITDB_ARGS --encoding=UNICODE --lc-collate=C --lc-ctype=C
 
