@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+docker_repository: garethflowers/postgres-plperl-server
+plugins:
+  - jekyll-remote-theme
+remote_theme: garethflowers/jekyll-simple-theme
